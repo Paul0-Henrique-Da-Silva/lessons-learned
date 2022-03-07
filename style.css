@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+* {margin-top: 0px;
+    margin-bottom: 0,5px;}
+
+header {
+    position: fixed;
+    margin-top: 0px ;
+    background-color:black;
+    text-align: center;
+    border-radius: 10px;
+}
+h1 {font-family: "Habbilli",cursive;
+    font-size: 30px;
+    color: skyblue;
+    }
+
+/*titulos menores */
+h3 {
+    font-family: "Hubbilli",cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+h4 {
+    font-size: 20px;
+}
+
+a { color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+   }
+nav > a {
+
+    letter-spacing: 2px;
+    padding: 3px;
+}
+a:hover {
+    color: blue;
+}
+body{
+    background-color: rgb(253, 251, 251);
+}
+
+main {
+    margin-left: 20%;}
+
+/* confesso  que altualmente não é melhor forma de fazer essa construção
+acretido sim que devo melhorar na contrução semântica e na contrução do estilo css */
+
+
+article > section ,aside {
+    display: inline-block;
+    /*background-color: skyblue;*/ 
+    width: 370px;
+    padding:  4px;
+    font-size: 15px;
+}
+section.lado-esquerdo {
+    margin: 4px;
+    border-radius: 15px;
+    border: 1px solid black;
+    line-height: normal;
+}
+
+section.lado-esquerdo:hover {
+    background-color: skyblue;
+}
+
+/*------------------------------------------------------------*/
+
+
+aside.lado-direito {
+    margin: 4px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.lado-direito {
+    position: absolute; 
+}
+img { 
+width: 164px; 
+border-radius: 15px;
+}
+
+.lado-direito:hover {
+    background-color: skyblue;
+}
+ /* apredenre 10 */
+ div:hover {
+    background-color: skyblue;
+
+ }
+ div {    
+      display: inline-block;
+      /*background-color: skyblue; */
+        border-radius: 15px;
+        margin: 4px;
+        width: auto;
+        height: auto;
+        border: 1px solid black;}
+.ladoD {
+    padding-right: 4px;
+}
+ol,ul {
+    font-size: 15px;
+}    
+/*tabel*/
+
+/*#tabela {
+        position: absolute;
+}
+
+/*----------RODAAPEEEEEEEEEE-------------*/
+footer {
+    width: auto;
+    height:160px;
+    border-radius: 15px;
+    background-color: black;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 22%;
+}
+
+h5 {
+    color: white; 
+    padding: 0,2px; 
+    margin-bottom: 0px;
+    margin-top: 0px;}
+
+footer > h4 {
+    padding-right: 1px:;
+    
+    padding: 0px;
+    margin-bottom: 0px;
+}
+footer >  a {
+    font-size: 14px;
+    color: white;
+}   
+    
+
+
